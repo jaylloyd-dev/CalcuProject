@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="result" class="result">0</h1>
+        <div class="btn-wrapper">
+            <button onclick="clearResult()" class="btn clear">C</button>
+            <button onclick="del()" class="btn del">DEL</button>
+            <button onclick="append('%')" class="btn percent">%</button>
+            <button onclick="append('/')" class="btn operator">/</button>
+            <button onclick="append(7)" class="btn seven">7</button>
+            <button onclick="append(8)" class="btn eight">8</button>
+            <button onclick="append(9)" class="btn nine">9</button>
+            <button onclick="append('*')" class="btn operator">*</button>
+            <button onclick="append(4)" class="btn four">4</button>
+            <button onclick="append(5)" class="btn five">5</button>
+            <button onclick="append(6)" class="btn six">6</button>
+            <button onclick="append('-')" class="btn operator">-</button>
+            <button onclick="append(1)" class="btn one">1</button>
+            <button onclick="append(2)" class="btn two">2</button>
+            <button onclick="append(3)" class="btn three">3</button>
+            <button onclick="append('+')" class="btn operator">+</button>
+            <button onclick="append('.')" class="btn point">.</button>
+            <button onclick="append(0)" class="btn zero">0</button>
+            <button onclick="compute()" class="btn equal">=</button>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
